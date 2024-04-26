@@ -49,12 +49,47 @@ cmake_ninja_workdir = C$:/Users/eren/CLionProjects/YukonGUI/cmake-build-debug/
 
 build cmake_object_order_depends_target_YukonGUI: phony || CMakeFiles/YukonGUI.dir
 
-build CMakeFiles/YukonGUI.dir/main.c.obj: C_COMPILER__YukonGUI_unscanned_Debug C$:/Users/eren/CLionProjects/YukonGUI/main.c || cmake_object_order_depends_target_YukonGUI
-  DEP_FILE = CMakeFiles\YukonGUI.dir\main.c.obj.d
+build CMakeFiles/YukonGUI.dir/src/main.c.obj: C_COMPILER__YukonGUI_unscanned_Debug C$:/Users/eren/CLionProjects/YukonGUI/src/main.c || cmake_object_order_depends_target_YukonGUI
+  DEP_FILE = CMakeFiles\YukonGUI.dir\src\main.c.obj.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
-  INCLUDES = -IC:/Users/eren/Downloads/SDL2-devel-2.30.2-mingw/SDL2-2.30.2/x86_64-w64-mingw32/include/SDL2
+  INCLUDES = -IC:/Users/eren/Downloads/SDL2-devel-2.30.2-mingw/SDL2-2.30.2/x86_64-w64-mingw32/include/SDL2 -IC:/Users/eren/Downloads/SDL2_image-devel-2.8.2-mingw/SDL2_image-2.8.2/x86_64-w64-mingw32/include -IC:/Users/eren/Downloads/SDL2_image-devel-2.8.2-mingw/SDL2_image-2.8.2/x86_64-w64-mingw32/include/SDL2
   OBJECT_DIR = CMakeFiles\YukonGUI.dir
-  OBJECT_FILE_DIR = CMakeFiles\YukonGUI.dir
+  OBJECT_FILE_DIR = CMakeFiles\YukonGUI.dir\src
+
+build CMakeFiles/YukonGUI.dir/src/Linkedlist.c.obj: C_COMPILER__YukonGUI_unscanned_Debug C$:/Users/eren/CLionProjects/YukonGUI/src/Linkedlist.c || cmake_object_order_depends_target_YukonGUI
+  DEP_FILE = CMakeFiles\YukonGUI.dir\src\Linkedlist.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/eren/Downloads/SDL2-devel-2.30.2-mingw/SDL2-2.30.2/x86_64-w64-mingw32/include/SDL2 -IC:/Users/eren/Downloads/SDL2_image-devel-2.8.2-mingw/SDL2_image-2.8.2/x86_64-w64-mingw32/include -IC:/Users/eren/Downloads/SDL2_image-devel-2.8.2-mingw/SDL2_image-2.8.2/x86_64-w64-mingw32/include/SDL2
+  OBJECT_DIR = CMakeFiles\YukonGUI.dir
+  OBJECT_FILE_DIR = CMakeFiles\YukonGUI.dir\src
+
+build CMakeFiles/YukonGUI.dir/src/controller.c.obj: C_COMPILER__YukonGUI_unscanned_Debug C$:/Users/eren/CLionProjects/YukonGUI/src/controller.c || cmake_object_order_depends_target_YukonGUI
+  DEP_FILE = CMakeFiles\YukonGUI.dir\src\controller.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/eren/Downloads/SDL2-devel-2.30.2-mingw/SDL2-2.30.2/x86_64-w64-mingw32/include/SDL2 -IC:/Users/eren/Downloads/SDL2_image-devel-2.8.2-mingw/SDL2_image-2.8.2/x86_64-w64-mingw32/include -IC:/Users/eren/Downloads/SDL2_image-devel-2.8.2-mingw/SDL2_image-2.8.2/x86_64-w64-mingw32/include/SDL2
+  OBJECT_DIR = CMakeFiles\YukonGUI.dir
+  OBJECT_FILE_DIR = CMakeFiles\YukonGUI.dir\src
+
+build CMakeFiles/YukonGUI.dir/src/deck.c.obj: C_COMPILER__YukonGUI_unscanned_Debug C$:/Users/eren/CLionProjects/YukonGUI/src/deck.c || cmake_object_order_depends_target_YukonGUI
+  DEP_FILE = CMakeFiles\YukonGUI.dir\src\deck.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/eren/Downloads/SDL2-devel-2.30.2-mingw/SDL2-2.30.2/x86_64-w64-mingw32/include/SDL2 -IC:/Users/eren/Downloads/SDL2_image-devel-2.8.2-mingw/SDL2_image-2.8.2/x86_64-w64-mingw32/include -IC:/Users/eren/Downloads/SDL2_image-devel-2.8.2-mingw/SDL2_image-2.8.2/x86_64-w64-mingw32/include/SDL2
+  OBJECT_DIR = CMakeFiles\YukonGUI.dir
+  OBJECT_FILE_DIR = CMakeFiles\YukonGUI.dir\src
+
+build CMakeFiles/YukonGUI.dir/src/gameCommands.c.obj: C_COMPILER__YukonGUI_unscanned_Debug C$:/Users/eren/CLionProjects/YukonGUI/src/gameCommands.c || cmake_object_order_depends_target_YukonGUI
+  DEP_FILE = CMakeFiles\YukonGUI.dir\src\gameCommands.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/eren/Downloads/SDL2-devel-2.30.2-mingw/SDL2-2.30.2/x86_64-w64-mingw32/include/SDL2 -IC:/Users/eren/Downloads/SDL2_image-devel-2.8.2-mingw/SDL2_image-2.8.2/x86_64-w64-mingw32/include -IC:/Users/eren/Downloads/SDL2_image-devel-2.8.2-mingw/SDL2_image-2.8.2/x86_64-w64-mingw32/include/SDL2
+  OBJECT_DIR = CMakeFiles\YukonGUI.dir
+  OBJECT_FILE_DIR = CMakeFiles\YukonGUI.dir\src
+
+build CMakeFiles/YukonGUI.dir/src/view.c.obj: C_COMPILER__YukonGUI_unscanned_Debug C$:/Users/eren/CLionProjects/YukonGUI/src/view.c || cmake_object_order_depends_target_YukonGUI
+  DEP_FILE = CMakeFiles\YukonGUI.dir\src\view.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/eren/Downloads/SDL2-devel-2.30.2-mingw/SDL2-2.30.2/x86_64-w64-mingw32/include/SDL2 -IC:/Users/eren/Downloads/SDL2_image-devel-2.8.2-mingw/SDL2_image-2.8.2/x86_64-w64-mingw32/include -IC:/Users/eren/Downloads/SDL2_image-devel-2.8.2-mingw/SDL2_image-2.8.2/x86_64-w64-mingw32/include/SDL2
+  OBJECT_DIR = CMakeFiles\YukonGUI.dir
+  OBJECT_FILE_DIR = CMakeFiles\YukonGUI.dir\src
 
 
 # =============================================================================
@@ -64,9 +99,9 @@ build CMakeFiles/YukonGUI.dir/main.c.obj: C_COMPILER__YukonGUI_unscanned_Debug C
 #############################################
 # Link the executable YukonGUI.exe
 
-build YukonGUI.exe: C_EXECUTABLE_LINKER__YukonGUI_Debug CMakeFiles/YukonGUI.dir/main.c.obj | C$:/Users/eren/Downloads/SDL2-devel-2.30.2-mingw/SDL2-2.30.2/x86_64-w64-mingw32/lib/libSDL2main.a C$:/Users/eren/Downloads/SDL2-devel-2.30.2-mingw/SDL2-2.30.2/x86_64-w64-mingw32/lib/libSDL2.dll.a
+build YukonGUI.exe: C_EXECUTABLE_LINKER__YukonGUI_Debug CMakeFiles/YukonGUI.dir/src/main.c.obj CMakeFiles/YukonGUI.dir/src/Linkedlist.c.obj CMakeFiles/YukonGUI.dir/src/controller.c.obj CMakeFiles/YukonGUI.dir/src/deck.c.obj CMakeFiles/YukonGUI.dir/src/gameCommands.c.obj CMakeFiles/YukonGUI.dir/src/view.c.obj | C$:/Users/eren/Downloads/SDL2-devel-2.30.2-mingw/SDL2-2.30.2/x86_64-w64-mingw32/lib/libSDL2main.a C$:/Users/eren/Downloads/SDL2-devel-2.30.2-mingw/SDL2-2.30.2/x86_64-w64-mingw32/lib/libSDL2.dll.a C$:/Users/eren/Downloads/SDL2_image-devel-2.8.2-mingw/SDL2_image-2.8.2/x86_64-w64-mingw32/lib/libSDL2_image.dll.a
   FLAGS = -g
-  LINK_LIBRARIES = -lmingw32  -mwindows  C:/Users/eren/Downloads/SDL2-devel-2.30.2-mingw/SDL2-2.30.2/x86_64-w64-mingw32/lib/libSDL2main.a  C:/Users/eren/Downloads/SDL2-devel-2.30.2-mingw/SDL2-2.30.2/x86_64-w64-mingw32/lib/libSDL2.dll.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  LINK_LIBRARIES = -lmingw32  -mwindows  C:/Users/eren/Downloads/SDL2-devel-2.30.2-mingw/SDL2-2.30.2/x86_64-w64-mingw32/lib/libSDL2main.a  C:/Users/eren/Downloads/SDL2-devel-2.30.2-mingw/SDL2-2.30.2/x86_64-w64-mingw32/lib/libSDL2.dll.a  C:/Users/eren/Downloads/SDL2_image-devel-2.8.2-mingw/SDL2_image-2.8.2/x86_64-w64-mingw32/lib/libSDL2_image.dll.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\YukonGUI.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
